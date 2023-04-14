@@ -11,6 +11,10 @@ Welcome to Sphinxy's documentation!
    :caption: Contents:
 
 
+The Egyptian Sphinx
+--------------------
+.. image:: _static/sphinx.png
+
 
 Indices and tables
 ==================
