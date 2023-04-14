@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sphinxy"
+description = "Examples for sphinx-tutorial"
+version = "0.0.1"
+requires-python = ">=3.8"
+license = {file = "LICENSE"}
+authors = [
+  { name = "Aya Elsayed", email = "ayah.ehab11@gmail.com" },
+  { name = "Olga Matoula", email = "olgamatoula@gmail.com" },
+]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
