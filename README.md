@@ -1,1 +1,1 @@
-# sphinxy
+# python-sphinx
