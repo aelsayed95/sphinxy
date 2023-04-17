@@ -42,3 +42,9 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 html_theme = 'furo'
 html_static_path = ['_static']
 html_favicon = "_static/favicon.ico"
+
+# -- Sphinx Multiversion --------------------------------------------------
+# https://holzhaus.github.io/sphinx-multiversion/master/configuration.html#
+smv_tag_whitelist = r'^v\d+\.\d+\.\d+$'
+smv_branch_whitelist = r'^.*$'
+smv_remote_whitelist = r'^.*$'
