@@ -1,0 +1,13 @@
+name: Hello World
+
+on:
+  push:
+    branches:
+      - 08-automate-updates
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: say hello
+        run: echo "Hello, World!"
