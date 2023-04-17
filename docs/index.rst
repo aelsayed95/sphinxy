@@ -10,6 +10,8 @@ Welcome to Sphinxy's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   modules
+
 
 The Egyptian Sphinx
 --------------------
