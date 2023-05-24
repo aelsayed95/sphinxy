@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from sphinxy.riddle import Riddle
 
 
@@ -6,7 +8,7 @@ class IncorrectAnswer(Exception):
 
 
 class Sphinx:
-    def __init__(self, name: str):
+    def __init__(self, name: str) -> None:
         self._name = name
         self._riddle = Riddle(
             question=(
